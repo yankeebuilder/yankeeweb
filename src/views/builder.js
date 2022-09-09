@@ -30,10 +30,11 @@ border-color:rgb(224, 0, 104);
 }
 </style>
   <h1>welcome a new open source html5 editor in the world</h1>  
-  <h2>contribute to the project on <a href="https://github.com/ngdream/yankee">github</a></h2>
+  <h2>this is a devolopment version contribute to the project on <a href="https://github.com/yankeebuilder/yankee">github</a></h2>
 </body>
 </html>
 `
+
 
 
 
@@ -282,7 +283,7 @@ for (let i = 0; i < tabsbutton.length; i++)
 
 
     //save the file 
-document.getElementById("yankee-download-button").addEventListener("click", function () {
+    document.getElementById("yankee-download-button").addEventListener("click", function () {
     var  htmltosave=document.querySelector("iframe").contentWindow.document.documentElement.innerHTML;
      var htmltosaveasblob = new Blob([htmltosave], { type: "text/html" });
      console.log(htmltosave);
