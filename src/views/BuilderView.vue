@@ -46,7 +46,7 @@
 </main>
 </template>
 
-<script setup>
+<script>
 import main from "./builder.js"
 
 document.querySelector("body").id="yankee-body"
