@@ -300,6 +300,8 @@ document.getElementById("yankee-download-button").addEventListener("click", func
    
 }
 
+document.querySelector("body").id = "yankee-body";
+
 var loaddata = setInterval(function() {
     if(document.readyState === 'complete') {
         clearInterval(loaddata);

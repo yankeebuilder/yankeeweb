@@ -49,5 +49,5 @@
 <script setup lang="ts">
 import main from "./builder.js"
 
-document.querySelector("body").id="yankee-body"
+
 </script>
